@@ -1,5 +1,5 @@
 
-		/* This is sample CSS code for the Litmos trial experience. Feel free to edit, remove or add your own CSS here. DISCLAIMER: Make sure you always back up your code externally before pressing save. */
+		
 
 		#statusContainer, #scoreContainer, #passmarkContainer {
 		font-size: 20px;
