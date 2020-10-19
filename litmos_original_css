@@ -189,7 +189,7 @@
 		.breadcrumb {
 		line-height: 40px;
 		padding: 0 13px;
-		background: #020e1a;
+		background: #000000;
 		text-transform: uppercase !important;
 		font-weight: 600;
 		}
@@ -354,7 +354,7 @@
 		}
 
 		a.btn.btn-sm.btn-default {
-		background: #0ccf6b;
+		background: #f7a820;
 		color: #ffffff;
 		}
 
@@ -657,4 +657,9 @@ padding: 10px;}
 		background-repeat: no-repeat;
 		height: 84px;
 		margin-top: 0px;
+		}
+		
+		/*CH added this because there were no existing options for a link focus*/
+		a:focus {
+		outline-style: none;
 		}
