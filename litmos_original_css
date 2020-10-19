@@ -1,0 +1,661 @@
+
+		/* This is sample CSS code for the Litmos trial experience. Feel free to edit, remove or add your own CSS here. DISCLAIMER: Make sure you always back up your code externally before pressing save. */
+
+		#statusContainer, #scoreContainer, #passmarkContainer {
+		font-size: 20px;
+		}
+
+		#video-bg > div:nth-child(3) > div {
+		font-size: 18px;
+		padding: 10px;
+		color: aliceblue !important;
+		text-align: center;
+		font-style: normal;
+		}
+
+		/* J-Code */
+
+		.m-nav-btn {
+		border-radius: 0 !important;
+		}
+
+		.jumbotron {
+		background-color: #262626 !important;
+		background-image: url(https://i.imgur.com/givwkWL.jpg) !important;
+		}
+
+		span.hidden-xs {
+		text-transform: uppercase;
+		}
+
+
+		.jumbotron .nav-tabs > li.active > a, .jumbotron .nav-tabs > li.active > a:hover, .jumbotron .nav-tabs > li.active > a:focus {
+		font-weight: 100;
+		cursor: pointer;
+		color: #f0ab00;
+		}
+
+
+
+
+		.navbar-header .btn-nav {
+		padding:21px;
+		}
+
+
+		div#contentMenu {
+		font-family: 'Catamaran', sans-serif !important;
+		text-transform: uppercase;
+		}
+
+
+		h2.sideNavHeader {
+		font-size: 1.8em !important;
+		}
+
+		.moduleListLine {
+		background-color: #999999;
+		}
+
+
+		.crocodoc-page-inner{
+		box-shadow: none !important;
+		border: none !important;
+		}
+
+
+		#coursePlayerHeader .navbar-header h1 {
+		font-family: 'Catamaran', sans-serif !important;
+		font-size: 1.4em;
+		}
+
+
+		h1#moduleName {
+		font-family: 'Catamaran', sans-serif !important;
+		font-size: 1.4em;
+		}
+
+		.small-course-image img {
+		border: 3px solid #ffffff !important;
+		border-radius: 0 !important;
+		}
+
+
+		@media (min-width: 992px) {
+		.small-course-image img {
+		border: 2px solid #262626 !important;
+		border-radius: 8px !important;
+		}}
+
+		@media (min-width: 768px) {
+		.small-course-image img {
+		border: 2px solid #262626 !important;
+		border-radius: 6px;
+		}}
+
+		#course-description {
+		color: #cacaca;
+		}
+
+		p.text-muted {
+		color: #cacaca;
+		}
+
+		.l-module-table .table_cell:first-child {
+		background: #f7f7f7;
+		}
+
+		.panel > .table:last-child, .panel > .table-responsive:last-child > .table:last-child {
+		font-family: 'Catamaran', sans-serif;
+		font-size: 1.1em;
+		}
+
+
+		.login-box {
+		background-color: #000000;
+		padding: 30px;
+		margin: 165px 0;
+		-webkit-border-radius: 0;
+		-moz-border-radius: 0;
+		border-radius: 0;
+		-webkit-box-shadow: rgba(0,0,0,0.25) 4px 6px 20px 10px;
+		-moz-box-shadow: rgba(0,0,0,0.25) 4px 6px 20px 10px;
+		box-shadow: rgba(0,0,0,0.25) 4px 6px 20px 10px;
+		border: solid 1px #262626;
+		}
+
+
+		#topicsAccordion > div > a {
+		background: #00b199;
+		border-radius: 100px;
+		padding: 15px;
+		font-size: 12px;
+		/* font-family: 'Raleway-Bold';*/
+		color: #fff;
+		text-transform: uppercase;
+		}
+
+
+		.bg-light {
+		color: #606060;
+		background: #ffffff;
+		}
+
+		.panel {
+		margin-bottom: 22px;
+		border: 0 solid transparent;
+		border-radius: 4px;
+		background-color: #fff;
+		-webkit-box-shadow: -1px 10px 19px -13px rgba(0,0,0,0.36);
+		-moz-box-shadow: -1px 10px 19px -13px rgba(0,0,0,0.36);
+		box-shadow: -1px 10px 19px -13px rgba(0,0,0,0.36);
+		}
+
+		.fc-center {
+		font-size: .8em !important;
+		color: #576d78;
+		}
+
+		button.fc-next-button.fc-button.fc-state-default.fc-corner-left.fc-corner-right {
+		background: #fdfdfd;
+		}
+
+		button.fc-today-button.fc-button.fc-state-default.fc-corner-left.fc-corner-right.fc-state-disabled {
+		background: #e4e4e4;
+		}
+
+		.fc .fc-toolbar > * > :first-child {
+		margin-left: 0;
+		background: #fff;
+		}
+
+
+		h2 {
+		/*font-family: 'Raleway-Bold';*/
+		font-size: 2.8em;
+
+		}
+
+		.padded.ilt-page-list {
+		background-color: #ececec;
+		padding: 80px;
+		}
+
+		table.table.l-module-table {
+		-webkit-box-shadow: -1px 6px 42px -7px rgba(0,0,0,0.39);
+		-moz-box-shadow: -1px 6px 42px -7px rgba(0,0,0,0.39);
+		box-shadow: -1px 6px 42px -7px rgba(0,0,0,0.39);
+		}
+
+		.breadcrumb {
+		line-height: 40px;
+		padding: 0 13px;
+		background: #555;
+		text-transform: uppercase !important;
+		}
+
+		li.active {
+		color: #fff !important;
+		text-transform: uppercase !important;
+		}
+
+		a#backToCourses {
+		color: #fff !important;
+		text-transform: uppercase !important;
+		}
+
+
+		h4.assessment-header {
+		font-family: 'Roboto-Medium', sans-serif !important;
+		color: #4e4e4e !important;
+		}
+
+		.mcanswers.question-answer {
+		/*font-family: 'Raleway', sans-serif !important;*/
+		}
+
+		.circleIcon {
+		background-color: #f0ab00 !important;
+		}
+
+		.question-image {
+		float: right !important;
+		border: solid 0 #ccc !important;
+		padding: 17px !important;
+		background-color: transparent;
+		width: 100%;
+		max-width: 800px !important;
+		}
+
+
+		.form-buttons {
+		margin-top: 10px;
+		border-top: solid 1px #eaeaea;
+		padding: 45px 3px;
+		padding-left: 30%;
+		}
+
+		.moduleBtn {
+		color: #ffffff !important;
+		background-color: #f0ab00  !important;
+		border: none !important;
+		}
+
+
+		.video-desc-wrapper {
+		background: #f4f4f4 !important;
+		background-image: url(https://i.imgur.com/qPotlSy.png) !important;
+		background-size: 50% !important;
+		}
+
+		.video-recorder-initial {
+		background-color: #f0ab00 !important;
+		}
+
+		.video-recorder-error, .video-recorder-progress {
+		background-color: #e2e2e2 !important;
+		}
+
+
+		.video-question {
+		padding: 120px !important;
+		}
+
+		h2.sideNavHeader {
+		font-size: 1.8em !important;
+		padding-bottom: 20px !important;
+		padding-top: 10px !important;
+		}
+
+
+		.module-desc {
+		font-size: 18px;
+		padding: 10px;
+		color: #444;
+		text-align: center;
+		}
+
+
+		span.align-center {
+		padding-left: 6px;
+		}
+
+
+		.ilt-page-list {
+		background-color: #ececec;
+		padding: 80px;
+		}
+
+		.login-logo {
+		margin: auto;
+		display: block;
+		}
+
+		nav#achievements-secondnav {
+		background: #555555;
+		}
+
+		.cal-icon {
+		background: #fff !important;
+		color: #262626 !important;
+		}
+
+		.cal-icon em {
+		color: #fff !important;
+		background: #d22c2c !important;
+		}
+
+		.cal-icon {
+		-moz-box-shadow: 1px 1px 9px 0 #888 !important;
+		-webkit-box-shadow: 1px 1px 9px 0 #888 !important;
+		box-shadow: 1px 1px 9px 0 #888 !important;
+		}
+
+		#achievements-secondnav > div > ul.nav.navbar-nav.gamification_user.hidden-xs > li.subnav-header > h1, #achievements-secondnav > div > ul.nav.navbar-nav.navbar-right.gamification_stats > li:nth-child(1) > strong > span.green_header, #editPointsText > span {
+		color: #ffffff;
+		}
+
+		.litmos-sub-nav {
+		text-transform: uppercase;
+		}
+
+
+		div#mainImage {
+
+		margin-right: 20% !important;
+		}
+
+		span#mark1 {
+		position: absolute;
+		background-color: #f0ab00;
+		box-shadow: rgb(88, 83, 83) 3px 3px 5px;
+		border-radius: 110px;
+		border-color: black;
+		border-width: 0;
+		border-style: solid;
+		opacity: 1;
+		width: 75px;
+		height: 75px;
+		}
+
+		.module-desc-feedback {
+		padding: 0 !important;
+		margin-left: 10%;
+		height: 260px;
+		margin-right: 10%;
+		color: #444;
+		text-align: left;
+		font-size: 18px;
+		border: 30px solid #fff;
+		}
+
+		h4.assessment-header {
+		text-align: center;
+		}
+
+		a.btn.btn-sm.btn-default {
+		background: #0ccf6b;
+		color: #ffffff;
+		}
+
+		#sidebar-wrapper {
+		background: #262626;}
+
+		button.btn.btn-default.moduleBtn {
+		margin: auto;
+		display: initial;
+		}
+
+
+		a.btn.btn-warning.moduleBtn {
+		background: #bf2121 !important;
+		margin: 10px auto;
+		text-align: center;
+		display: initial;
+		}
+
+		button.btn.btn-default.moduleBtn {
+		margin: auto;
+
+		display: initial;
+		}
+
+		div#mainImage {
+		margin: 20px auto;
+		}
+
+		.l-theme-preview-card {
+		overflow: auto;
+		}
+
+		.videouserDefault {
+		display: contents;
+		}
+
+		.jwplayer {
+		margin: auto !important; }
+
+		.login-box, .info {
+		color: #dadada;
+		}
+
+		img.learner-logo {
+		padding: 9px;
+		}
+
+		.btn {
+		border-radius: 40px !important;
+		}
+
+		
+
+		a.btn.btn-lg.btn-default.btn-google {
+		border-radius: 10px !important;
+		}
+
+		.filter_active_button {
+		background-color: #5bcf65;}
+
+		.navbar-brand > img {
+		padding: 11px;
+		}
+
+		.stat-aqua, .stat-green, .stat-blue, .stat-dark {
+		background-color: #000000 !important;}
+
+		.stat-aqua i {
+		color: #008fd3 !important;
+		}
+
+		.stat-green i {
+		color: #609a7f !important;
+		}
+
+		.stat-blue i {
+		color: #970A82 !important;
+		}
+
+		.stat-dark i {
+		color: #f0ab00 !important;
+		}
+
+		a#manageDashboard {
+		background-color: #008fd3;
+		box-shadow: 0 -2px 0 0 #1b44b9 inset;
+		}
+
+		h1.litmos-small-header.mt-0 {
+		color: #f0ab00;
+		}
+
+		.panel-heading {
+		border-radius: 0;
+		}
+
+		
+
+		nav#dashboardNav {
+		background: #262626;
+		}
+
+		.highcharts-color-0 path.highcharts-color-0, .highcharts-color-0 .highcharts-point {
+		fill: rgb(0, 143, 211);
+		}
+		.highcharts-color-0 .highcharts-area {
+		fill: rgba(0, 143, 211, 0.7);
+		}
+		.highcharts-color-0 path.highcharts-graph {
+		stroke: rgb(0, 143, 211);
+		}
+		.highcharts-color-1 path.highcharts-color-0, .highcharts-color-1 .highcharts-point {
+		fill: rgb(96, 154, 127);
+		}
+		.highcharts-color-1 .highcharts-area {
+		fill: rgba(96, 154, 127, 0.7);
+		}
+		.highcharts-color-1 path.highcharts-graph {
+		stroke: rgb(96, 154, 127);
+		}
+		.highcharts-color-2 path.highcharts-color-0, .highcharts-color-2 .highcharts-point {
+		fill: rgb(240, 171, 0);
+		}
+		.highcharts-color-2 .highcharts-area {
+		fill: rgba(240, 171, 0, 0.68);
+		}
+		.highcharts-color-2 path.highcharts-graph {
+		stroke: rgb(240, 171, 0);
+		}
+		i.fa.fa-trophy {
+		font-size: .85em;
+		}
+		.achievements_wrapper .achievements-Medal:nth-child(1) {
+		background-color: #f0ab00 !important;
+		}
+		.achievements-Medal:nth-child(even) {
+		background-color: #609a7f;
+		}
+		.achievements-Medal:nth-child(odd) {
+		background-color: #008fd3;
+		}
+
+
+
+		.login-logo {
+		max-width: 50%;
+		margin: auto;
+		content: url(https://i.imgur.com/BVTkZn9.png);
+		display: block;
+		animation: 1s cubic-bezier(1, 0.12, 1, 1);
+		opacity: 1;
+		}
+
+		.login-box {
+		background-color: transparent;
+		padding: 20px;
+		margin: 10px 0;
+		box-shadow: none;
+		border: none;
+		}
+
+		@media (min-width: 992px) {
+		.col-md-6 {
+		width: 60%;
+		margin: auto;
+		}
+
+		.col-md-offset-3 {
+		margin-left: 33%;
+		}}
+
+		body.loginBg {
+		background: #0a0a0a url(https://i.imgur.com/5ccCmr1.png);
+		color: #fff !important;
+		}
+
+		.login-welcome.col-md-6 > .info {
+		color: #fff;
+		text-align: center;
+		}
+		.login-cbx label {
+		color: #eeaa01;
+		text-transform: lowercase;
+		}
+
+		.login-button input {
+		width: 58%;
+		border: 2px solid #ffd535;
+		border-radius: 0;
+		background: #f0ab00;
+		text-transform: uppercase;
+		letter-spacing: 1.2px;
+		font-weight: 900;
+		}
+
+		.input-lg {
+		background: #5f5f5f !important;
+		color:#fff;
+		text-align: center;
+		}
+
+		.gamification_circle_achievements img {
+		width: 65px;
+		height: 65px;
+		}
+
+		.gamification_circle_achievements {
+		width: 65px;
+		height: 65px;
+		border-radius: 50px;
+		}
+
+		.gamification_point {
+		background: #f0ab00;
+		}
+
+		div#map {
+		-webkit-box-shadow: -1px 10px 19px -13px rgba(0,0,0,0.36);
+		-moz-box-shadow: -1px 10px 19px -13px rgba(0,0,0,0.36);
+		box-shadow: -1px 10px 19px -13px rgba(0,0,0,0.36);
+		}
+		nav.subnav {
+		border-bottom: none;
+		}
+
+		.topic-item .accordianCaret {
+		background: none !important;
+		color: #000 !important;
+		}
+
+
+	
+		.fd-shellbar__logo > img {
+		height: 60px;
+		max-height: 60px;
+padding: 10px;}
+
+		.fd-shellbar {max-height: 70px;
+		height: 60px;}
+
+		.fd-shellbar__logo { max-height: none;}
+
+		/*NOTE: section below is test for Josh B
+		*/
+
+		nav#dashboardNav {
+		display: none;
+		}
+
+		.bg-light {
+		background: #ffffff;
+		}
+
+		.panel {
+		-webkit-box-shadow: none;
+		box-shadow: none;
+		border: 1px solid #e2e2e2;
+		}
+
+		.fc-toolbar h2 {
+		font-size: 2.2em;
+		}
+
+		.achievements_wrapper .achievements-Medal {
+		background-color: #f0ab00;
+		}
+
+		.achievements-Medal i.fa.fa-trophy {
+		font-size: 0.85em;
+		}
+
+
+		.l-theme-image {
+		background: url(https://i.imgur.com/maqJtbr.png);
+		}
+
+		.navbar-brand > img {
+		padding: 7px;
+		}
+
+		nav#learner-nav {
+		color:#fff;
+		background: #262626;
+		}
+
+		div#welcomeModal .modal-body {
+		background: url(https://i.imgur.com/R7JrYVr.png);
+		background-position: 0px -310px;
+		background-repeat: no-repeat;
+		}
+
+		div#tip-learner-welcome h3 {
+		color: #fff;
+		background: url(https://i.imgur.com/XP2owkT.gif);
+		background-size: contain;
+		text-align: left;
+		padding-top: 30px;
+		padding-left: 90px;
+		background-repeat: no-repeat;
+		height: 84px;
+		margin-top: 0px;
+		}
+	
