@@ -659,7 +659,12 @@ padding: 10px;}
 		margin-top: 0px;
 		}
 		
-		/*CH added this because there were no existing options for a link focus*/
+				/*CH added this because there were no existing options. These overwrite Litmos CSS*/
+		
 		a:focus {
 		outline-style: none;
+		}
+		
+		.tilesNav-text {
+		font-weight: 600;
 		}
