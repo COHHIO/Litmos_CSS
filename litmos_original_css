@@ -635,7 +635,7 @@ padding: 10px;}
 
 		nav#learner-nav {
 		color:#fff;
-		background: #020e1a;
+		background: #051d37;
 		}
 
 		div#welcomeModal .modal-body {
