@@ -29,7 +29,7 @@
 
 
 		.jumbotron .nav-tabs > li.active > a, .jumbotron .nav-tabs > li.active > a:hover, .jumbotron .nav-tabs > li.active > a:focus {
-		font-weight: 100;
+		font-weight: 600;
 		cursor: pointer;
 		color: #f0ab00;
 		}
@@ -191,6 +191,7 @@
 		padding: 0 13px;
 		background: #020e1a;
 		text-transform: uppercase !important;
+		font-weight: 600;
 		}
 
 		li.active {
