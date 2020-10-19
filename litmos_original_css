@@ -500,7 +500,7 @@
 		.login-logo {
 		max-width: 50%;
 		margin: auto;
-		content: url(https://i.imgur.com/BVTkZn9.png);
+		content: url(https://cohhio.org/wp-content/uploads/2016/10/COHHIOLogo144x144.png);
 		display: block;
 		animation: 1s cubic-bezier(1, 0.12, 1, 1);
 		opacity: 1;
@@ -525,8 +525,8 @@
 		}}
 
 		body.loginBg {
-		background: #0a0a0a url(https://i.imgur.com/5ccCmr1.png);
-		color: #fff !important;
+		/*background: #0a0a0a url(https://i.imgur.com/5ccCmr1.png);*/
+		color: #07274A !important;
 		}
 
 		.login-welcome.col-md-6 > .info {
