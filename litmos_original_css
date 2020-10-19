@@ -187,7 +187,7 @@
 		.breadcrumb {
 		line-height: 40px;
 		padding: 0 13px;
-		background: #555;
+		background: #445c77;
 		text-transform: uppercase !important;
 		}
 
@@ -289,7 +289,7 @@
 		}
 
 		nav#achievements-secondnav {
-		background: #555555;
+		background: #01080f;
 		}
 
 		.cal-icon {
@@ -635,7 +635,7 @@ padding: 10px;}
 
 		nav#learner-nav {
 		color:#fff;
-		background: #051d37;
+		background: #01080f;
 		}
 
 		div#welcomeModal .modal-body {
