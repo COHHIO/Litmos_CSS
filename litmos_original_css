@@ -44,7 +44,7 @@
 
 
 		div#contentMenu {
-		font-family: 'Catamaran', sans-serif !important;
+		font-family: 'Helvetica Neue', sans-serif !important;
 		text-transform: uppercase;
 		}
 
@@ -65,13 +65,13 @@
 
 
 		#coursePlayerHeader .navbar-header h1 {
-		font-family: 'Catamaran', sans-serif !important;
+		font-family: 'Helvetica Neue', sans-serif !important;
 		font-size: 1.4em;
 		}
 
 
 		h1#moduleName {
-		font-family: 'Catamaran', sans-serif !important;
+		font-family: 'Helvetica Neue', sans-serif !important;
 		font-size: 1.4em;
 		}
 
@@ -106,7 +106,7 @@
 		}
 
 		.panel > .table:last-child, .panel > .table-responsive:last-child > .table:last-child {
-		font-family: 'Catamaran', sans-serif;
+		font-family: 'Helvetica Neue', sans-serif;
 		font-size: 1.1em;
 		}
 
@@ -130,7 +130,7 @@
 		border-radius: 100px;
 		padding: 15px;
 		font-size: 12px;
-		/* font-family: 'Raleway-Bold';*/
+		/* font-family: 'Helvetica Neue';*/
 		color: #fff;
 		text-transform: uppercase;
 		}
@@ -171,7 +171,7 @@
 
 
 		h2 {
-		/*font-family: 'Raleway-Bold';*/
+		/*font-family: 'Helvetica Neue';*/
 		font-size: 2.8em;
 
 		}
@@ -206,12 +206,12 @@
 
 
 		h4.assessment-header {
-		font-family: 'Roboto-Medium', sans-serif !important;
+		font-family: 'Helvetica Neue', sans-serif !important;
 		color: #4e4e4e !important;
 		}
 
 		.mcanswers.question-answer {
-		/*font-family: 'Raleway', sans-serif !important;*/
+		/*font-family: 'Helvetica Neue', sans-serif !important;*/
 		}
 
 		.circleIcon {
