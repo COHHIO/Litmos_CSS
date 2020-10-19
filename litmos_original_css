@@ -1,3 +1,5 @@
+		/*This must be cut and pasted into the Litmos Custom CSS section under Account Settings > Theme*/
+		
 		#statusContainer, #scoreContainer, #passmarkContainer {
 		font-size: 20px;
 		}
