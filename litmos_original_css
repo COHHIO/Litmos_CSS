@@ -1,6 +1,3 @@
-
-		
-
 		#statusContainer, #scoreContainer, #passmarkContainer {
 		font-size: 20px;
 		}
@@ -638,7 +635,7 @@ padding: 10px;}
 
 		nav#learner-nav {
 		color:#fff;
-		background: #07274a;
+		background: #020e1a;
 		}
 
 		div#welcomeModal .modal-body {
