@@ -668,3 +668,12 @@ padding: 10px;}
 		.tilesNav-text {
 		font-weight: 600;
 		}
+		
+		/*Left align text on esignature*/
+		
+		#Esignature #uploadContainer .row > div {
+		text-align: left;
+		}
+		
+		
+
