@@ -1,0 +1,262 @@
+/* 
+
+          Attention Litmos coding ninjas in training, this is what a 
+          comment looks like in CSS... Anything typed between the 
+          characters: "/ *" & "* /" (without spaces) does not effect the
+          output of the css file. We'll add in some comments here to provide
+          you with helpful references 
+
+
+/* ----------------- MODULE: CHANGING BACKGROUNDS - LOGIN PAGE ----------------- */
+
+/* This is the background on the login page, it's
+good practice to use high quality images that
+represent your organization */
+    .loginBg {
+      background: none;
+      background-color: #262626 !important;
+      background-image: url(https://i.imgur.com/KyatmZV.png);
+      background-repeat: no-repeat;
+      background-size: 200%;
+      background-position: top;
+    }
+
+/* This bit pertains to the login box on the login screen */
+
+    .login-box {
+      background-color: #262626;
+      background-image: url(https://i.imgur.com/jlkPrrw.png);
+      background-size: 40%;
+      background-repeat: no-repeat;
+      background-position: bottom left 20px;
+      padding: 21px;
+      margin: 200px 0;
+      -webkit-border-radius: 0px;
+      -moz-border-radius: 0px;
+      border-radius: 0px;
+      -webkit-box-shadow: rgba(0,0,0,0.25) 4px 4px 5px;
+      -moz-box-shadow: rgba(0,0,0,0.25) 4px 4px 5px;
+      box-shadow: rgba(0,0,0,0.25) 4px 4px 5px;
+      border: solid 1px #505050;
+    }
+
+/* l_body is the background behind your both
+your admin and learner view dashboards */
+    body#l_body {
+      background-image: url(https://i.imgur.com/i5WLeSu.png);
+      background-color: #262626;
+    }
+
+/* Header color change */
+    h2.litmos-small-header.text-left.mb-1 {
+      color: #9bce49;
+      text-align: center;
+    }
+
+/* When viewing a course, lpc-tiles-space 
+is the area behind your course descriptions */
+    div#lpc-tiles-space {
+      background-image: url(https://i.imgur.com/OkNztDl.jpg);
+    }
+
+
+
+
+
+/* -------------------- MODULE: CHANGING BACKGROUNDS - COURSE PLAYER --------------------  */
+
+/* This is the  background that sits behind
+ this content in course modules */
+    div#wrapper {
+      background-image: url(https://i.imgur.com/vRk3awo.jpg);
+      background-size: cover;
+      overflow-x: hidden;
+    }
+
+/* This controls the look of the course sidebar navigation,
+in this example, we have an image of Ninja Lenny that's
+positioned in the bottom left */
+    div#sidebar-wrapper {
+      background-image: url(https://i.imgur.com/jlkPrrw.png);
+      background-repeat: no-repeat;
+      background-position: bottom 95px left;
+      background-size: 95%;
+      background-color: #333333;
+      border-right: 1px solid #646464;
+      -webkit-box-shadow: inset -34px 4px 77px 10px rgb(25, 25, 25);
+      -moz-box-shadow: inset -34px 4px 77px 10px rgba(25,25,25,1);
+      box-shadow: inset -34px 4px 77px 10px rgb(25, 25, 25);
+    }
+
+    #coursePlayerWrapper .navbar {
+      border-bottom: 1px solid #646464 !important;
+    }
+
+    .m-nav-btn {
+      border-radius:0px !important;
+      transform: skew(-13deg) !important;
+    }
+
+
+/* Here is where we added "Raleway" custom font */
+
+
+    h1#moduleName {
+      font-family: 'Raleway', sans-serif;
+      text-transform: uppercase;
+      color: #9bce49;
+      font-size: 15px !important;
+    }
+
+    h2.sideNavHeader {
+      padding-bottom: 2em;
+      padding-top: 2em;
+    }
+
+    .litmos-sub-nav {
+      margin-bottom: 15px;
+      border-bottom: 2px solid #eaeaea;
+      background: #4f584d;
+    }
+
+
+
+
+/* -------------------- MODULE: NEWS + ADDITIONAL UI-------------------- */
+
+    #panel_Latest_News {
+      background: none;
+    }
+
+    div#panel_Latest_News {
+      -webkit-box-shadow: none !important;
+      -moz-box-shadow: none !important;
+      box-shadow: none !important;
+    }
+
+/* This adds a dotted border in between news items  */
+     .widget_newsitem {
+      border-bottom: dotted 1px #262626;
+    }
+
+/* This sets the scroll image as the background behind the News widget */
+    #newsWrapper {
+      background-image: url(https://i.imgur.com/M4cwJjY.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      overflow-y: auto;
+      width: 100%;
+      padding-top: 60px;
+      padding-bottom: 40px;
+      padding-right: 60px;
+      padding-left: 60px;
+      min-height: 385px;
+    }
+
+    .table > tbody > tr > td, .table > tfoot > tr > td {
+      line-height: 1.8;
+      padding: 12px 8px;
+      vertical-align: top;
+      border-top: none !important;
+    }
+
+/* This sets the scroll image as the background behind the News widget */
+    .widget_newsitem {
+      border-bottom: 1px dotted;
+      color: #262626;
+    }
+
+
+
+
+h2.litmos-small-header.mb-1.mt-0.pt-1 {
+      color: #9bce49;
+  }
+  
+
+
+
+/* Other Customized UI Elements */
+    i.fa.fa-th {
+      color: #9bce49;
+    }
+
+    .nav > li > a {
+        position: relative;
+        display: block;
+        padding: 10px 15px;
+        color: #fff;
+    }
+
+/* This bit of code forces the page to load at 90% zoom */
+    #body{
+    zoom: 90%;
+    }
+
+/* Mobile Adjustment For Course Status Bar */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3),
+  (max-width: 767px) { #learnerDashboardContent .litmos-sub-nav li {
+    width: 19%;
+    text-align: center;
+}
+}
+
+@media (min-width: 768px) {
+.navbar-nav {
+    padding-top: 5px;
+}
+}
+
+/* Achievements Medal Gradient */
+.achievements_wrapper .achievements-Medal {
+    background-color: #ffe259 !important;
+    background: -webkit-linear-gradient(to right, #ffa751, #ffe259);
+    background: linear-gradient(to right, #ffa751, #ffe259);
+}
+
+.panel.panel-litmos.bg-light {
+    background: #505050;
+    -webkit-box-shadow: -1px 1px 34px 3px rgba(0,0,0,0.24) !important;
+    -moz-box-shadow: -1px 1px 34px 3px rgba(0,0,0,0.24) !important;
+    box-shadow: -1px 1px 34px 3px rgba(0,0,0,0.24) !important;
+}
+
+.module-title.pt-1 {
+    color: #cacaca;
+}
+
+
+/* ILT Session Modification  */
+
+.padded.ilt-page-list {
+    background: #eaeaea;
+    padding: 50px;
+}
+
+/* Course Tile Background  */
+
+.tiles-view .tile-image {
+    background-color: #060606;
+}
+
+/* Markdown style */
+.markdown-format pre {
+    padding: 8px 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-bottom-width: 2px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    -webkit-font-smoothing: inherit;
+    overflow: auto;
+    font-family: Monaco,"DejaVu Sans Mono","Courier New",monospace;
+    font-size: 13px;
+    color: #666;
+}
