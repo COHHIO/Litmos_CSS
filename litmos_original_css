@@ -661,6 +661,10 @@ padding: 10px;}
 		
 				/*CH added this because there were no existing options. These overwrite Litmos CSS*/
 		
+		body {
+		font-size: 16px
+		}
+		
 		a:focus {
 		outline-style: none;
 		}
